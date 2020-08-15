@@ -12,7 +12,7 @@ const extensions = [".gif", ".jpeg", ".jpg", ".png", ".svg"];
 
 // Override the default style ignorer, also modifying all image requests
 register(ignoreStyles.DEFAULT_EXTENSIONS, (mod, filename) => {
-  if (!extensions.find(f => filename.endsWith(f))) {
+  if (!extensions.find((f) => filename.endsWith(f))) {
     // If we find a style
     return ignoreStyles.noOp();
   } else {
@@ -35,8 +35,8 @@ require("@babel/register")({
     "@babel/plugin-syntax-dynamic-import",
     "dynamic-import-node",
     "react-loadable/babel",
-    "@babel/plugin-proposal-class-properties"
-  ]
+    "@babel/plugin-proposal-class-properties",
+  ],
 });
 
 // Now that the nonsense is over... load up the server entry point

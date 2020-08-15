@@ -1,20 +1,23 @@
 import React from "react";
 import { Row, Col, Container } from "../../components/layout";
-import { LinkButton } from "../../components/button";
-
+import Button from "../../components/button";
+const click1 = () => {
+  window.open("https://www.linkedin.com/in/jayamathan-s/", "_blank");
+};
 const ShortIntro = () => {
   return (
     <div className="intro" title="Introduction">
       <React.Fragment>
         <p className="greeting">Hi! There, I am</p>
         <h1 className="name">
-          Jayamathan <span>S</span>
+          Jayamathan S
+          <span />
         </h1>
-        <h2 className="designation">Full Stack Developer</h2>
+        <h2 className="designation">Product Management Enthusiast</h2>
         <h5 className="location">based in Chennai, India.</h5>
       </React.Fragment>
       <React.Fragment>
-        <LinkButton to="/about" label="Know More &#8594;" />
+        <Button onClick={click1} label="View LinkedIn &#8594;" />
       </React.Fragment>
     </div>
   );
@@ -49,10 +52,9 @@ const Landing = () => {
           </Col>
           <Col xs={12} lg={6} md={6} sm={12} className="float-right">
             <Quote
-              heading="'Eat'  <code>  /*sleep*/  Repeat()"
-              quote="Every great developer you know got there by solving
-              problems they were unqualified to solve until they actually did it!”"
-              writer="- Patrick McKenzie"
+              heading="Ideate💡  <Build💻>  /*Launch🚀*/  Learn(📖)"
+              quote="Be stubborn on vision but flexible on details!”"
+              writer="- Jeff Bezos Amazon"
             />
           </Col>
         </Row>

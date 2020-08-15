@@ -31,21 +31,21 @@ function createMapOptions(maps) {
           { saturation: -100 },
           { gamma: 0.8 },
           { lightness: 4 },
-          { visibility: "on" }
-        ]
-      }
-    ]
+          { visibility: "on" },
+        ],
+      },
+    ],
   };
 }
 
 const pos = {
   lat: 12.7369,
-  lng: 80.0144
+  lng: 80.0144,
 };
 
 class GoogleMap extends React.PureComponent {
   static defaultProps = {
-    zoom: 16
+    zoom: 16,
   };
 
   render() {
@@ -54,7 +54,7 @@ class GoogleMap extends React.PureComponent {
         <div className="map-wrapper">
           <GoogleMapReact
             bootstrapURLKeys={{
-              key: "AIzaSyCnf5QOgx8eqc103p2b2uyZRK48CIqtcT4"
+              key: "AIzaSyCnf5QOgx8eqc103p2b2uyZRK48CIqtcT4",
             }}
             defaultCenter={{ ...pos }}
             defaultZoom={this.props.zoom}
@@ -68,7 +68,7 @@ class GoogleMap extends React.PureComponent {
   }
 }
 
-const FollowMe = () => {
+export const FollowMe = () => {
   return (
     <div className="follow-me">
       <Heading text="Follow Me" className="text-center" />

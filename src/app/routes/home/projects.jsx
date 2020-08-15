@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Container } from "../../components/layout";
 import youtube from "../../assets/imgs/youtube.PNG";
 import crown from "../../assets/imgs/crown.PNG";
-import monstersilk from "../../assets/imgs/monstersilk.png";
+import monstersilk from "../../assets/imgs/monstersilk.PNG";
 import Heading from "../../components/heading";
 import ProjectCard from "../../components/projectCard";
 import Button from "../../components/button";

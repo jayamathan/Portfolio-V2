@@ -24,9 +24,9 @@ const Testimonial = () => {
         <Row className="flex">
           <div className="col-md-6">
             <p>
-              Jayamathan has excellent commitment and unwavering dedication to
-              his work. He has genuine intellectual curiosity and an innovative
-              mind-set to learn and implement novel concepts.
+              Jayamathan has an excellent commitment and unwavering dedication
+              to his work. He has a genuine intellectual curiosity and an
+              innovative mindset to learn and implement novel concepts.
             </p>
             <span>
               - Annamol Alex <i> Lead Engineer at HTIC, IIT Madras</i>
@@ -74,15 +74,15 @@ const Services = () => {
               className=""
               image={resdesign}
               name="Full stack development"
-              desc="I can handle both front end and back end development. I also comfortable in working with databases and github version control."
+              desc="I have experience with both FrontEnd and BackEnd Development. I also comfortable in working with databases, APIs and Github/Gitlab version control."
             />
           </Col>
           <Col xs={12} sm={6} md={6} lg={6} className="p-0">
             <ServiceCard
               className=""
               image={doccode}
-              name="DOCUMENTED CODE"
-              desc="I believe that code should be written in such a manner that another developer can easily understand it."
+              name="Design and User Experience"
+              desc="As a FrontEnd Developer, I have a special eye for UI/UX Design. I approach problems with a customer-centric mindset which helped to develop intuitive meaningful products"
             />
           </Col>
         </Row>
@@ -91,8 +91,8 @@ const Services = () => {
             <ServiceCard
               className="border-left-0 border-bottom-0"
               image={thirdparty}
-              name="Responsibility"
-              desc="I take ownership for my code and I can write pure functions in functional programming style.I test my code with testing tools before deploying."
+              name="Responsibility and People"
+              desc="I take ownership of my work and I love to help people. I am also interested in influencing people in a positive approach without authority"
             />
           </Col>
           <Col xs={12} sm={6} md={6} lg={6} className="p-0">
@@ -100,7 +100,7 @@ const Services = () => {
               className="border-right-0 border-bottom-0"
               image={UIFrame}
               name="Continuous Learning"
-              desc="I constantly update my skills with current trends in technologies.I develop side projects and write articles to keep me updated.   "
+              desc="Curiosity shaped my journey all along. I always explore relevant things to learn that benefits to both my personal and professional development"
             />
           </Col>
         </Row>

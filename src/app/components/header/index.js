@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
 import "./header.scss";
@@ -11,7 +12,7 @@ class Header extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      isOpen: false
+      isOpen: false,
     };
   }
 
@@ -50,9 +51,10 @@ class Header extends React.PureComponent {
             LinkedIn
           </a>
           <a href={resume} download>
-            CV
+            Resume
           </a>
-          <Hamburger isOpen={isOpen} toggle={this.toggle} />
+
+          {/* <Hamburger isOpen={isOpen} toggle={this.toggle} /> */}
         </div>
       </div>
     );

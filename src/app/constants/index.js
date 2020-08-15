@@ -26,107 +26,107 @@ export const SOCIAL_LINKS = [
     id: 1,
     link: "https://www.instagram.com/jayamathan_s/",
     imgSrc: { instagram },
-    name: "Instagram"
+    name: "Instagram",
   },
   {
     id: 2,
     link: "https://www.facebook.com/jayamathan.skj",
     imgSrc: "https://cdn.svgporn.com/logos/facebook.svg",
-    name: "Facebook"
+    name: "Facebook",
   },
   {
     id: 3,
     link: "https://twitter.com/JayamathanSkj",
     imgSrc: "https://cdn.svgporn.com/logos/twitter.svg",
-    name: "Twitter"
+    name: "Twitter",
   },
   {
     id: 4,
     link: "https://github.com/jayamathan",
     imgSrc: "https://cdn.svgporn.com/logos/github-icon.svg",
-    name: "Github"
-  }
+    name: "Github",
+  },
 ];
 
 export const HEADER_LINKS = [
   {
     id: "home",
     name: "Home",
-    to: "/"
+    to: "/",
   },
   {
     id: "about",
     name: "About",
-    to: "/about"
+    to: "/about",
   },
-  // {
-  //   id: 'mywork',
-  //   name: 'My Work',
-  //   to: '/mywork',
-  // },
+  {
+    id: "mywork",
+    name: "My Work",
+    to: "/mywork",
+  },
   {
     id: "contact",
     name: "Contact",
-    to: "/contact"
-  }
+    to: "/contact",
+  },
 ];
 
 export const TOP_SKILLS = [
-  {
-    name: "Angular JS",
-    imgSrc: "https://cdn.svgporn.com/logos/angular.svg",
-    rating: "03"
-  },
+  // {
+  //   name: "Angular JS",
+  //   imgSrc: "https://cdn.svgporn.com/logos/angular.svg",
+  //   rating: "03",
+  // },
   {
     name: "React JS",
     imgSrc: "https://cdn.svgporn.com/logos/react.svg",
-    rating: "03"
+    rating: "03",
   },
   {
     name: "Redux",
     imgSrc: "https://cdn.svgporn.com/logos/redux.svg",
-    rating: "03"
+    rating: "03",
   },
   {
     name: "JavaScript",
     imgSrc: "https://cdn.svgporn.com/logos/javascript.svg",
-    rating: "03"
+    rating: "03",
   },
   {
     name: "NodeJs",
     imgSrc: "https://cdn.svgporn.com/logos/nodejs.svg",
-    rating: "03"
+    rating: "03",
   },
   {
     name: "Java",
     imgSrc: "https://cdn.svgporn.com/logos/java.svg",
-    rating: "03"
+    rating: "03",
   },
   {
     name: "MongoDB",
     imgSrc: "https://cdn.svgporn.com/logos/mongodb.svg",
-    rating: "03"
+    rating: "03",
   },
   {
     name: "Python",
     imgSrc: "https://cdn.svgporn.com/logos/python.svg",
-    rating: "03"
+    rating: "03",
   },
   {
     name: "CSS3",
     imgSrc: "https://cdn.svgporn.com/logos/css-3.svg",
-    rating: "03"
+    rating: "03",
   },
   {
     name: "SASS",
     imgSrc: "https://cdn.svgporn.com/logos/sass.svg",
-    rating: "03"
+    rating: "03",
   },
   {
     name: "HTML5",
     imgSrc: "https://cdn.svgporn.com/logos/html-5.svg",
-    rating: "03"
-  }
+    rating: "03",
+  },
 ];
 
 export const LOGO_URL = "../assets/imgs/logo.png";
@@ -134,58 +134,58 @@ export const LOGO_URL = "../assets/imgs/logo.png";
 export const EXPERIENCE = [
   {
     id: 1,
-    time: "Nov'18 - Present",
-    title: "Infosys Limited",
+    time: "Jan'20 - Present",
+    title: "Verizon",
     descriptiion:
-      "Reduced project expenses by optimizing Google Maps API calls",
-    designation: "Senior System Engineer"
+      "Developed an internal issue tracking and project management product which increased project efficiency by 30%",
+    designation: "Member of Technical Staff-II",
   },
   {
     id: 2,
-    time: "Jun'17 - Nov'18",
+    time: "Jun'17 - Jan'20",
     title: "Infosys Limited",
     descriptiion:
-      "Worked on European E-commerce Project named AVON and involved in various aspects including revamping of the website look, increasing the user accessibility and supported over 9 markets. Coordinated a POC and increased project sales by 20%. \n Rewarded for High Performer in Infosys Mysore Training.",
-    designation: "System Engineer"
+      "Worked on a European E-commerce Project named AVON and involved in various aspects including revamping of the website look, increasing user accessibility, and supported over 9 markets. Coordinated POC and increased project sales by 20%. Rewarded for High Performer in Infosys Mysore Training.",
+    designation: "Senior Systems Engineer",
   },
   {
     id: 3,
     time: "Nov'15 - Jan'16",
     title: "HealthCare Technology Innovation Centre, IIT Madras",
     descriptiion:
-      "Achieved master-slave configuration protocol using RFdunio and Android device",
-    designation: "Research Intern"
+      "Developed a prototype device using RFduino(RFD90101) platform, to control the device using an Android phone as a master",
+    designation: "Research Intern",
   },
   {
     id: 3,
     time: "2013-2017",
-    title: "SREC, Coimbatore",
+    title: "Anna University(SREC, Coimbatore)",
     descriptiion: "Graduation & Young Leadership Award",
-    designation: "B.E ECE"
-  }
+    designation: "B.E Electronics & Communication Enginnering",
+  },
 ];
 
 export const WORKED_WITH = [
   {
     id: 1,
-    imgSrc: IMGS.PIT_LOGO
+    imgSrc: IMGS.PIT_LOGO,
   },
   {
     id: 2,
-    imgSrc: IMGS.MM_LOGO
+    imgSrc: IMGS.MM_LOGO,
   },
   {
     id: 3,
-    imgSrc: IMGS.DAUBLE_LOGO
+    imgSrc: IMGS.DAUBLE_LOGO,
   },
   {
     id: 4,
-    imgSrc: IMGS.MEDZIN_LOGO
+    imgSrc: IMGS.MEDZIN_LOGO,
   },
   {
     id: 5,
-    imgSrc: IMGS.TT_LOGO
-  }
+    imgSrc: IMGS.TT_LOGO,
+  },
 ];
 
 // eslint-disable-next-line
@@ -196,6 +196,6 @@ export default {
   ENV_TYPES: {
     PROD: "prod",
     STAG: "stag",
-    LOCAL: "local"
-  }
+    LOCAL: "local",
+  },
 };
